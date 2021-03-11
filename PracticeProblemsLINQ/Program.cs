@@ -18,10 +18,10 @@ namespace PracticeProblemsLINQ
            
 
             //Problem 2
-            List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
-            List<string> results1 = LinqProblems.RunProblem2(names);
-            Console.WriteLine(results1);
-            Console.ReadLine();
+            //List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
+            //List<string> results1 = LinqProblems.RunProblem2(names);
+            //Console.WriteLine(results1);
+            //Console.ReadLine();
 
             //Problem 3 & Problem 4
             List<Customer> customers = new List<Customer>()
@@ -31,6 +31,9 @@ namespace PracticeProblemsLINQ
                 new Customer(3, "Jason", "Ryan"),
                 new Customer(4, "Dan", "Laffey")
             };
+            Customer results2 = LinqProblems.RunProblem3(customers);
+            Console.WriteLine(results2);
+            Console.ReadLine();
 
 
             //Problem 5
