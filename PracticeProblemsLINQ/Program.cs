@@ -12,7 +12,10 @@ namespace PracticeProblemsLINQ
         {
             //Problem 1
             List<string> words = new List<string>() { "the", "bike", "this", "it", "tenth", "mathematics" };
-
+            List<string> results = LinqProblems.RunProblem1(words);
+            Console.WriteLine(results);
+            Console.ReadLine();
+           
 
             //Problem 2
             List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
@@ -38,9 +41,9 @@ namespace PracticeProblemsLINQ
             };
 
 
-            //--------------------
-            //Bonus Problem 1
-            string letters = "terrill";
+            ////--------------------
+            ////Bonus Problem 1
+            //string letters = "terrill";
 
         }
     }
