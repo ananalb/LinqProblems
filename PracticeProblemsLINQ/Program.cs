@@ -24,16 +24,28 @@ namespace PracticeProblemsLINQ
             //Console.ReadLine();
 
             //Problem 3 & Problem 4
-            List<Customer> customers = new List<Customer>()
-            {
-                new Customer(1, "Mike", "Rodgers"),
-                new Customer(2, "Nick", "Allen"),
-                new Customer(3, "Jason", "Ryan"),
-                new Customer(4, "Dan", "Laffey")
-            };
-            Customer results2 = LinqProblems.RunProblem3(customers);
-            Console.WriteLine(results2);
-            Console.ReadLine();
+            //List<Customer> customers = new List<Customer>()
+            //{
+            //    new Customer(1, "Mike", "Rodgers"),
+            //    new Customer(2, "Nick", "Allen"),
+            //    new Customer(3, "Jason", "Ryan"),
+            //    new Customer(4, "Dan", "Laffey")
+            //};
+            //Customer results2 = LinqProblems.RunProblem3(customers);
+            //Console.WriteLine(results2);
+            //Console.ReadLine();
+
+            //List<Customer> customers = new List<Customer>()
+            //{
+            //    new Customer(1, "Mike", "Rodgers"),
+            //    new Customer(2, "Nick", "Allen"),
+            //    new Customer(3, "Jason", "Ryan"),
+            //    new Customer(4, "Dan", "Laffey")
+            //};
+
+            //Customer results3 = LinqProblems.RunProblem4(customers);
+            //Console.WriteLine(results3);
+            //Console.ReadLine();
 
 
             //Problem 5
@@ -44,6 +56,10 @@ namespace PracticeProblemsLINQ
                 "73,88,83,99,64",
                 "98,100,66,74,55"
             };
+
+            List<string> results4 = LinqProblems.RunProblem1(classGrades);
+            Console.WriteLine(results4);
+            Console.ReadLine();
 
 
             ////--------------------
