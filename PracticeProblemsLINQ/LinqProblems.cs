@@ -26,17 +26,15 @@ namespace PracticeProblemsLINQ
 
 
         #region Problem 2 
-        ////(5 points) Problem 2
-        ////Using LINQ, write a method that takes in a list of strings and returns a copy of the list without duplicates.
-        //public static List<string> RunProblem2(List<string> names)
-        //{
-        //    //code
-        //    //var copyWithoutDuplicates = names.Where(x => x.Equals(x).toList();
-        //    //return copyWithoutDuplicates;
+        //(5 points) Problem 2
+        //Using LINQ, write a method that takes in a list of strings and returns a copy of the list without duplicates.
+        public static List<string> RunProblem2(List<string> names)
+        {
+            
+            var copyWithoutDuplicates = names.Distinct().ToList();
+            return copyWithoutDuplicates;
 
-        //    //return
-
-        //}
+        }
         #endregion
 
         #region Problem 3
